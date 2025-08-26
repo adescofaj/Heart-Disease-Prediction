@@ -30,8 +30,14 @@ Develop an accurate machine learning model that can predict heart disease presen
 ### Models Implemented
 - Logistic Regression
 - Support Vector Machine (SVM)
-- Random Forest (planned)
-- XGBoost (planned)
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Random Forest
+- AdaBoost
+- Gradient Boosting
+- CatBoost
+- XGBoost
+- LightGBM
 
 ### Evaluation Metrics
 - Accuracy, Precision, Recall, F1-Score
@@ -65,10 +71,13 @@ jupyter notebook heart_disease_prediction.ipynb
 ```
 
 ## 📊 Results
-| Model | Train Accuracy | Test Accuracy | F1-Score |
-|-------|----------------|---------------|----------|
-| Logistic Regression | TBD | TBD | TBD |
-| SVM | TBD | TBD | TBD |
+
+### Model Performance Comparison
+| Model | Train Accuracy | Test Accuracy | Test Recall | Test Precision | AUC | Clinical Assessment |
+|-------|----------------|---------------|-------------|----------------|-----|-------------------|
+| **Logistic Regression** ✅ | 85.4% | 81.9% | 84.4% | 92.9% | 89% | **SELECTED** |
+| Decision Tree | 100% | 82.7% | 87.3% | 91.2% | 74% | Overfitted |
+| XGBoost | 99.3% | 82.1% | 86.3% | 91.4% | 89% | Overfitted |
 
 ## 🔍 Future Enhancements
 - Ensemble methods implementation
@@ -80,9 +89,9 @@ jupyter notebook heart_disease_prediction.ipynb
 MIT License
 
 ## 📞 Contact
-**Your Name**  
-Email: your.email@example.com  
-GitHub: [@yourusername](https://github.com/yourusername)
+**adescofaje**  
+Email: adescofaj@gmail.com  
+GitHub: [@yourusername](https://github.com/adescofaj)
 
 ---
 *Machine learning for better healthcare outcomes*
