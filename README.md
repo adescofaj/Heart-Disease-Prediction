@@ -89,9 +89,9 @@ jupyter notebook heart_disease_prediction.ipynb
 MIT License
 
 ## 📞 Contact
-**adescofaje**  
+**adescofaj**  
 Email: adescofaj@gmail.com  
-GitHub: [@yourusername](https://github.com/adescofaj)
+GitHub: https://github.com/adescofaj
 
 ---
 *Machine learning for better healthcare outcomes*
