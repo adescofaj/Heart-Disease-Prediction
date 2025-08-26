@@ -85,9 +85,6 @@ jupyter notebook heart_disease_prediction.ipynb
 - Model deployment
 - Cross-validation analysis
 
-## 📄 License
-MIT License
-
 ## 📞 Contact
 **adescofaj**  
 Email: adescofaj@gmail.com  
