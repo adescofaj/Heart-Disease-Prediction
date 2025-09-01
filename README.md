@@ -54,6 +54,7 @@ Develop an accurate machine learning model that can predict heart disease presen
 # Core Libraries
 pandas, numpy, matplotlib, seaborn
 scikit-learn, imbalanced-learn
+xgboost, catboost, lightgbm, SMOTE
 ```
 
 ## 🚀 Getting Started
